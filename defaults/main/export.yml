@@ -1,7 +1,0 @@
-# Xresources entries for other roles to use to configure Adwaita
-adwaita_xresources_entries:
-  lines: |
-    Xcursor.theme: Adwaita
-    Xcursor.size: {{ adwaita_mouse_pointer_size }}
-  descrip: 'Set Xcursor mouse pointer theme and size to Adwaita'
-

@@ -1,0 +1,8 @@
+- name: "Set 'adwaita_xresources_entries' dict var, for export to other roles"
+  ansible.builtin.set_fact:
+    adwaita_xresources_entries:
+      lines: |
+        Xcursor.theme: Adwaita
+        Xcursor.size: {{ adwaita_mouse_pointer_size }}
+      descrip: 'Set Xcursor mouse pointer theme and size to Adwaita'
+

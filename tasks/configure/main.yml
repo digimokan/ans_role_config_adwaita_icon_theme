@@ -4,3 +4,6 @@
 - name: "Create Adwaita 'default' symlinks to actual icons dir"
   ansible.builtin.include_tasks: create_symlinks/main.yml
 
+- name: "Export vars for other roles to use"
+  ansible.builtin.include_tasks: export_vars/main.yml
+
