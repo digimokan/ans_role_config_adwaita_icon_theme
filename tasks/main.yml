@@ -1,0 +1,7 @@
+- name: "Install the 'adwaita-icon-theme' package"
+  ansible.builtin.package:
+    name: adwaita-icon-theme
+    state: present
+  become: true
+  become_user: root
+
