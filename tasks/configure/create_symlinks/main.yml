@@ -1,4 +1,5 @@
 - name: "Create user default-icons dirs as symlinks to '{{ system_adwaita_icons_dir }}'"
+  # Ref: https://wiki.archlinux.org/title/Cursor_themes
   ansible.builtin.file:
     src: "{{ system_adwaita_icons_dir }}"
     dest: "{{ user_default_icons_dir }}"
