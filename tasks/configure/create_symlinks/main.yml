@@ -1,5 +1,5 @@
 - name: "Create user default-icons dirs as symlinks to '{{ system_adwaita_icons_dir }}'"
-  ansible.builtin.template:
+  ansible.builtin.file:
     src: "{{ system_adwaita_icons_dir }}"
     dest: "{{ user_default_icons_dir }}"
     state: link
