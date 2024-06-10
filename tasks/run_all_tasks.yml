@@ -1,0 +1,6 @@
+- name: "Install Adwaita icon theme"
+  ansible.builtin.include_tasks: install/main.yml
+
+- name: "Configure Adwaita icon theme"
+  ansible.builtin.include_tasks: configure/main.yml
+

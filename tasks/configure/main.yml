@@ -1,0 +1,6 @@
+- name: "Create Adwaita user config directories"
+  ansible.builtin.include_tasks: create_dirs/main.yml
+
+- name: "Create Adwaita 'default' symlinks to actual icons dir"
+  ansible.builtin.include_tasks: create_symlinks/main.yml
+

@@ -1,0 +1,3 @@
+# path to dir where Adwaita icons files are installed
+adwaita_linux_system_icons_dir: "/usr/share/icons/Adwaita"
+

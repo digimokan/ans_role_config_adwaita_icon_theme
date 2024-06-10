@@ -1,0 +1,12 @@
+# path of user default icons dir
+adwaita_user_default_icons_dir: "/home/{{ adwaita_user_name }}/.icons"
+
+# path of user default icons symlink (to actual Adwaita icons dir)
+adwaita_user_default_icons_default_link: "{{ adwaita_user_default_icons_dir }}/default"
+
+# path of user default local-icons dir
+adwaita_user_default_local_icons_dir: "/home/{{ adwaita_user_name }}/.local/share/icons"
+
+# path of user default local-icons symlink (to actual Adwaita icons dir)
+adwaita_user_default_local_icons_default_link: "{{ adwaita_user_default_local_icons_dir }}/default"
+

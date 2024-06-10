@@ -11,6 +11,7 @@ Install and configure the Adwaita icon theme.
 * [Supported Operating Systems](#supported-operating-systems)
 * [Quick Start](#quick-start)
     * [Use From Playbook](#use-from-playbook)
+* [Role Options](#role-options)
 * [Contributing](#contributing)
 
 ## Purpose
@@ -54,7 +55,19 @@ Install and configure the Adwaita icon theme.
          ansible.builtin.include_role:
            name: ans_role_config_adwaita_icon_theme
            public: true
+         vars:
+           adwaita_user_name: "user2"
    ```
+
+## Role Options
+
+See the role `defaults` files for main role vars listings:
+
+  * [defaults](../defaults/main/)
+
+Define these _required_ vars for the role:
+
+  * `adwaita_user_name`: user name of main adwaita user
 
 ## Contributing
 
